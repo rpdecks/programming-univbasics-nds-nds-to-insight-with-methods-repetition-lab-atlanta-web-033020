@@ -48,8 +48,11 @@ def total_gross(source)
   # return the total
   
   total = 0
-  
-
+  index = 0
+  while index < directors_totals(source).size do
+    total += directors_totals(index)[gross]
+    index += 1
+  end
   total
 end
 
