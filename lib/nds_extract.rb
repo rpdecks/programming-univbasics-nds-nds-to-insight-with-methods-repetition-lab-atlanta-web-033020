@@ -29,7 +29,7 @@ def list_of_directors(source)
   index = 0
   list = []
   while index < source.length do
-    list = source[index]
+    list = source[index][:name]
     binding.pry
     index += 1
   end
