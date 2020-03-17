@@ -30,7 +30,7 @@ def list_of_directors(source)
   list = []
   while index < source.length do
     list[index] = source[index][:name]
-    binding.pry
+    #binding.pry
     index += 1
   end
 end
