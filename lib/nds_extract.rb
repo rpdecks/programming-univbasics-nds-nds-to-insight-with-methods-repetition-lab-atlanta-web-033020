@@ -51,6 +51,7 @@ def total_gross(source)
   index = 0
   while index < directors_totals(source).size do
     total += directors_totals(source)[index][gross]
+    binding.pry
     index += 1
   end
   total
