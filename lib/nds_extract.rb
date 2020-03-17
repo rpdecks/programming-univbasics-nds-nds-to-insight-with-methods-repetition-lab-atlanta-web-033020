@@ -50,7 +50,7 @@ def total_gross(source)
   total = 0
   index = 0
   while index < directors_totals(source).size do
-    total += (directors_totals(source))[index]
+    total += #(directors_totals(source))[index]
     binding.pry
     index += 1
   end
